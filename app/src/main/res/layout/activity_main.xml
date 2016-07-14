@@ -1,0 +1,119 @@
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shrinkColumns="1"
+
+    android:stretchColumns="0,1,2"
+
+    android:collapseColumns="3"
+    android:background="@drawable/map">
+<TableRow>
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+</TableRow>
+    <TableRow>
+        <TextView android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    </TableRow>
+    <TableRow>
+        <TextView android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+
+
+
+            android:layout_column="1"
+
+            android:layout_span="4" />
+
+    </TableRow>
+
+
+
+    <TableRow>
+
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_height="match_parent"
+
+            android:text="You are At:"
+
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_height="match_parent"
+            android:id="@+id/textView1"
+
+
+            android:textColor="@color/background_material_dark" />
+
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_height="match_parent"
+            android:text="Latitude:"
+
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_height="match_parent"
+            android:id="@+id/textView2"
+            android:textColor="@color/background_material_dark" />
+
+
+
+    </TableRow>
+    <TableRow>
+
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_height="match_parent"
+            android:text="Longitude:"
+
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_height="match_parent"
+            android:id="@+id/textView3"
+
+            android:textColor="@color/background_material_dark" />
+
+
+    </TableRow>
+    <TableRow>
+
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_height="match_parent"
+            android:text="Mac Address:"
+
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_height="match_parent"
+            android:id="@+id/textView4"
+
+            android:textColor="@color/background_material_dark" />
+
+
+
+    </TableRow>
+
+
+
+</TableLayout>
