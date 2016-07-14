@@ -31,7 +31,7 @@ public class MainActivity extends Activity {
         TextView textView4 = (TextView) findViewById(R.id.textView4);
         LocationManager lm = (LocationManager) getSystemService(LOCATION_SERVICE);
         _gpsListener = new MyLocationListener();
-        lm.requestLocationUpdates(LocationManager.GPS_PROVIDER, 0, 0, _gpsListener);
+        lm.requestLocationUpdates(LocationManager.GPS_PROVIDER, 90000, 2, _gpsListener);
 
 
        Location location = lm.getLastKnownLocation(LocationManager.GPS_PROVIDER);
